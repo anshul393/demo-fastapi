@@ -30,9 +30,9 @@ app.include_router(vote.router)
 
 
                                                           
-# @app.get("/") # decorator ,,, get request of HTTP                       
-# def root():   # function                           #    known as route or path operation 
-#     return {"message": "Welcome to my API"} # This is what user gets in return  and fastApi converts it to json
+@app.get("/") # decorator ,,, get request of HTTP                       
+def root():   # function                           #    known as route or path operation 
+    return {"message": "Welcome to my API"} # This is what user gets in return  and fastApi converts it to json
 
 
 
